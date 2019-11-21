@@ -1,0 +1,9 @@
+'''
+A1.3.5 Stainbrook.py
+Programmer: Ethan Stainbrook
+Understanding how strings function in python
+'''
+from_future_import print_function
+if input('One character:') == '!':
+  print('Wow', end='!')
+  
