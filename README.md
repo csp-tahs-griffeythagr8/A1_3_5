@@ -1,9 +1,26 @@
-# A1_3_5 Strings
+# A1_3_4 Nested Branching and Input
 
-Create a new python script of your own and add it to this repository. 
+*Don't forget to create your feature branch
 
-Go through the book and complete all of the steps on your own. Commit the final product when completed.
+## Before You Begin
+1. Make a copy of A1_3_3
+2. Place it into the A1_3_4 repository cloned to your computer. 
+3. Rename the file to A1_3_4 YourLastName.
+4. Update the docstring.
 
-Answer the conclusion questions in your branches README.md.
+## Adding and Sanitizing User Input
+Create a variable 'usr_input' that is assigned an input from a user statement. 
+
+If necessary, check Part II from A 1.3.4 in the book to see how we use the input function. Make sure that you use input() and not raw_input() as we are working in Python 3.7.4. 
+
+Enter the following code after your newly created variable to sanitize your data: 
+
+```python3
+try:
+  sani_input = int(usr_input)
+  print("Is an integer")
+except(TypeError, ValueError):
+  print("Not an integer")
+```
 
 
